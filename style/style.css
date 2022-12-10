@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1e0c5;
+}
+
+.header {
+    background: #778910;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+}
+
+.navi {
+    list-style: none;
+    padding: 2px;
+}
+
+.navi li {
+    margin: 0 5px;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #f1e0c5;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navi a:hover {
+    background: #f1e0c5;
+    color: #778910;
+}
+.active{
+    background: #f1e0c5 !important;
+    color: #778910 !important;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+.margin-auto{
+    margin: 0 auto !important;
+}
+.text-center{
+    text-align: center;
+}
+.welcome h2{
+    font-size: 50px;
+    color: #778910;
+    margin: 20px 0;
+}
+.welcome p{
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: justify;
+    color: #4ca2d7;
+    margin: 20px 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+.category{
+    font-size: 50px;
+    color: #778910;
+    margin: 20px 10px;
+
+}
+.card{
+    background: #a8937e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: #313436 1px solid;
+    border-radius: 15px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+}
+.card-about{
+    padding-left: 20px;
+}
+.card-about p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #f1e0c5;
+}
+.card-image img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
