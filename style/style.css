@@ -37,7 +37,8 @@ body {
     background: #f1e0c5;
     color: #778910;
 }
-.active{
+
+.active {
     background: #f1e0c5 !important;
     color: #778910 !important;
 }
@@ -101,18 +102,26 @@ body {
 .col-12 {
     width: 100%;
 }
-.margin-auto{
+
+.margin-auto {
     margin: 0 auto !important;
 }
-.text-center{
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.text-center {
     text-align: center;
 }
-.welcome h2{
+
+.welcome h2 {
     font-size: 50px;
     color: #778910;
     margin: 20px 0;
 }
-.welcome p{
+
+.welcome p {
     font-family: cursive;
     font-size: 22px;
     font-weight: 200;
@@ -132,30 +141,75 @@ body {
 .justify-content-between {
     justify-content: space-between;
 }
-.category{
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.category {
     font-size: 50px;
     color: #778910;
     margin: 20px 10px;
 
 }
-.card{
+
+.card {
     background: #a8937e;
     padding: 20px;
     margin-bottom: 20px;
     border: #313436 1px solid;
     border-radius: 15px;
-    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
-.card-about{
+
+.card-about {
     padding-left: 20px;
 }
-.card-about p{
+
+.card-about p {
     font-size: 20px;
     font-weight: 200;
     color: #f1e0c5;
 }
-.card-image img{
+
+.card-image img {
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px dotted #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+}
+
+textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px dotted #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #778910;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    color: #f1e0c5;
+    text-align: center;
+    text-transform: uppercase;
+}
+label {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 4px;
+    padding: 3px;
 }
